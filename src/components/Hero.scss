@@ -1,0 +1,54 @@
+
+
+* {
+  padding: 0px;
+  margin: 0;
+}
+
+.section-wrapper {
+  position: relative;
+  width: 100%;
+
+  .heading-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .title-heading {
+      font-size: 64px;
+      font-weight: 400;
+      color: #fff;
+      line-height: 78px;
+      @media (max-width: 767px) {
+        position: relative;
+        top: 30px;
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 44px;
+      }
+    }
+
+    p {
+      width: 50%;
+      position: relative;
+        top: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 200;
+      color: #fff;
+      line-height: 29px;
+
+      @media (max-width: 767px) {
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 2rem;
+        width: 80%;
+      }
+
+      
+    }
+  }
+}
+
+

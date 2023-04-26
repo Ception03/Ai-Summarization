@@ -1,0 +1,205 @@
+.wrapper-form {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-form {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+      .linkico {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 4px;
+        z-index: 1;
+      }
+      .link-search {
+        width: 50rem;
+        color: white;
+        font-weight: 300;
+        height: 2.5rem;
+        padding-left: 2.5rem;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(5.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        transition: 0.3s;
+        &::placeholder{
+          font-weight: 200;
+          color: #bbbbbb;
+        }
+
+        &:focus {
+          outline: none;
+          box-shadow: 0 0 14px 6px rgba(222, 112, 255, 0.4);
+          
+        }
+      }
+
+      .submit-btn {
+        position: absolute;
+        left: 49.5rem;
+        color: #fff;
+        border-radius: 30px;
+        width: 2.5rem;
+        height: 1.8rem;
+        font-size: 1.3rem;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(5.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.07);
+          box-shadow: 0 8px 32px 0 rgba(219, 180, 250, 0.61);
+        }
+        &:hover,
+        &:not(:hover) {
+          transition: transform 0.2s ease-in-out;
+        }
+      }
+    }
+
+
+  }
+
+  .result-container {
+    position: absolute;
+    top: 105%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+
+    .alert-error {
+      color: white;
+      line-height: 24px;
+      font-weight: 300;
+    }
+
+    .loads {
+      object-fit: contain;
+      width: 20%;
+      height: 20%;
+      top: 250px;
+    }
+
+    .alert-error {
+      text-align: center;
+      .error-type {
+        font-weight: 400;
+      }
+    }
+
+    .result-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      .result-heading {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 1rem;
+        left: 0;
+        right: 0;
+        color: rgb(255, 255, 255);
+
+        .blue_gradient {
+          padding: 0px 10px;
+          color: rgb(201, 83, 236);
+        }
+      }
+
+      .summary_box {
+        position: absolute;
+        width: 90%;
+        max-width: 50rem;
+        height: auto;
+        padding: 15px;
+        top: 4rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        line-height: 24px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(5.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 0.375rem;
+
+        .summarized-text {
+          color: white;
+          font-weight: 300;
+        }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .result-wrapper {
+        .result-heading {
+          font-size: 24px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .summary_box {
+          top: 8rem;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper-form {
+    .container {
+      .main-form {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .link-search {
+          width: 120%;
+          margin-top: 16px;
+          margin-bottom: 8px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+
+        .submit-btn {
+          left: 235px;
+          margin-top: 8px;
+          margin-bottom: 16px;
+          width: 16%;
+          top: 17px;
+          height: 1.5rem;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

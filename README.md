@@ -1,41 +1,70 @@
-#Ai Summariztion
-Thi Ai-Summarizer is a React application with Redux, Sass, and SCSS support. The project is designed to demonstrate the usage of CSS in a React-Redux environment.
+# Getting Started with Create React App
 
-Version
-0.1.0
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Dependencies
-@reduxjs/toolkit - A toolkit for managing Redux applications
-@testing-library/jest-dom - Custom jest matchers for DOM elements
-@testing-library/react - Testing utilities for React components
-@testing-library/user-event - Simulating user interactions in tests
-react - A JavaScript library for building user interfaces
-react-dom - React package for working with the DOM
-react-redux - Official React bindings for Redux
-react-scripts - Scripts and configuration for Create React App
-sass - A pure JavaScript implementation of Sass
-scss - A lightweight SCSS compiler
-web-vitals - Utilities for measuring Web Vitals
-Scripts
-start - Starts the development server
-build - Builds the production-ready application
-test - Runs tests in interactive mode
-eject - Ejects the application from Create React App for further customization
-ESLint Configuration
-The project extends the following ESLint configurations:
+## Available Scripts
 
-react-app - ESLint configuration for Create React App
-react-app/jest - ESLint configuration for Jest testing framework
-Browserslist
-The project targets the following browsers for production and development:
+In the project directory, you can run:
 
-Production
-0.2%
+### `npm start`
 
-not dead
-not op_mini all
-Development
-last 1 chrome version
-last 1 firefox version
-last 1 safari version
-stackoverflow.com thecodebuzz.com jetbrains.com github.com medium.com
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
