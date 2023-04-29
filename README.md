@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## `Guide for Beginners `
+Before Running the webapp you need to create the .env file and put your Api key their.
+
 In the project directory, you can run:
 
 ### `npm start`
